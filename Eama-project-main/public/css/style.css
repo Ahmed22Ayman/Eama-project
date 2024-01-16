@@ -1,0 +1,39 @@
+
+  .form-message {
+    margin: 20px auto 0 auto;
+    border-radius: 10px;
+    text-transform: capitalize;
+    max-width: 560px;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .form-message p {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  
+  .form-message-red {
+    background-color: #ffb3b3;
+    border: 2px solid #ff0000;
+  }
+  
+  .form-message-green {
+    background-color: lightgreen;
+    border: 2px solid green;
+  }
+  
+  .form-sub-msg {
+    margin: 20px auto 0 auto;
+    width: 90%;
+    max-width: 560px;
+    color: #00334d;
+  }
+  

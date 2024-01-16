@@ -1,0 +1,167 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    position: relative;
+    overflow: auto;
+   width: 100%;
+   height: 100%;
+}
+#menulist::-webkit-scrollbar {
+    display: none;
+  }
+#menulist li{
+    margin: 15px 5px;
+ 
+}
+#menulist li a{
+    padding: 13px;
+  
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-radius: 0px;
+
+}
+
+#menulist li a:hover{
+    cursor: pointer;
+border-bottom: 2px solid gray;
+   
+}
+img{
+    transition: 1s;
+}
+.menu_items{
+    overflow: hidden;
+    position: relative;
+    background-color:rgb(209, 209, 203);
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+    flex-basis: auto;
+    flex-grow: 0;
+ flex-shrink: 1;
+ flex: 0 1 auto;
+ order: 0;
+ 
+
+}
+#menubody{
+    left: 10px;
+    flex-flow:  wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: normal;
+    align-items: center;
+    margin-bottom: 200px;
+    max-width: 98%;
+}
+.descr_and_add{
+  
+    width: 100%;
+    height: 100%;
+    top: 150%;
+    position: absolute;
+    background-color: rgba(253, 253, 253, 0.699);
+    transition: .8s;
+}
+.icons{
+    position: absolute;
+    top: 78%;
+    left: 82%;
+    border-radius: 15px;
+transition: .2s;
+width: 13%;
+}
+.icons:hover{
+    cursor: pointer;
+    background-color: rgb(43, 202, 43);
+}
+.description{
+    left: 5%;
+    font-size: 12px;
+    width: 75%;
+    max-width: 75%;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+ 
+   height: 90%;
+}
+.names,.prices{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.names{
+    position: absolute;
+  top: 10px;
+}
+.prices{
+   position: absolute;
+bottom: 10px;
+}
+.menu_items:hover .descr_and_add{
+    top: 0px;
+    
+ }
+ .menu_items:hover img{ 
+    transform: scale(1.5);
+ }
+ .icons:hover{
+    cursor: pointer;
+ }
+
+ .favs{
+  
+    position: absolute;
+    width: 7%;
+    height: 7%;
+  left: 90%;
+  top: 2%;
+transition: .4s;
+ }
+ .favs:hover{
+    top: 3%;
+    left: 89%;
+    width: 8%;
+    height: 8%;
+    cursor: pointer;
+
+ }
+ 
+ .favrs{
+    display: none;
+    position: absolute;
+    width: 7%;
+    height: 7%;
+  left: 90%;
+  top: 2%;
+transition: .4s;
+ }
+ .favrs:hover{
+    top: 3%;
+    left: 89%;
+    width: 8%;
+    height: 8%;
+    cursor: pointer;
+
+ }
+
+
+   
+
+
+
+
+
+
+
+  
+
+
+

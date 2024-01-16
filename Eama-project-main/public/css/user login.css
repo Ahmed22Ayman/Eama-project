@@ -1,0 +1,79 @@
+body{
+    background-image: url("p6.jpg");
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position:center;
+     font-family: 'Courier New';
+ }
+ .container{
+   width: 500px;
+   height: 350px;
+   margin-right:80px;
+   margin-left:450px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+   background-color:  #222;
+   /* border-radius: 20px; */
+   opacity: 75%;
+  }
+  h2{
+     color:white;
+     text-align:center;
+     padding-right: 100px;
+     padding-left: 100px;
+     padding-top: 4px;
+     border-bottom: solid 1px white;
+     padding-bottom: 6px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+  }
+ form{
+     width: 300px;
+     margin-left: 70px;
+     margin-right: 50px;
+  }
+  
+  
+  form input{
+     width: 110%;
+     height: 40px;
+     padding: 5px;
+     border:none;
+     /* border-radius: 15px; */
+     outline: none;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     border-bottom: 1px solid black;
+ }
+ 
+  form textarea:focus{
+     border: none;
+    
+  }
+  form textarea{
+     
+     width: 100%;
+     border: none;
+     border-bottom: 1px solid black;
+     outline: none;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ 
+ }
+  button{
+     width: 300px;
+     height: 35px;
+     margin-left: 30px;
+     margin-right: 100px;
+     margin-top: 20px;
+     border: none;
+     background-color:white;
+     color:black;
+     font-size: 20px;
+     border-radius: 10px;
+     font-family: 'Times New Roman', Times, serif;
+     }
+     button:hover{
+      background-color:dimgray;
+     color:black;
+    }
